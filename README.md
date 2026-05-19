@@ -1,6 +1,6 @@
 # vector_benchmark
 
-Сравнение CPU и GPU для поэлементного умножения векторов: `c[i] = a[i] * b[i]`.
+Сравнение CPU и GPU для скалярного умножения векторов: `c[i] = a[i] * b[i]`.
 
 Измеряются 4 режима (мс): **CPU calc**, **CPU e2e**, **GPU kernel**, **GPU e2e**.  
 На выходе: `benchmark_results.csv` и график `benchmark_results.png`.
